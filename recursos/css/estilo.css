@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('../img/tarde.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body > * {
+    width: 80%;
+}
+
+header h1 {
+    text-align: center;
+    color: #fff;
+    margin: 2rem 1rem;
+    font-size: 3rem;
+    text-shadow: 0 0 .3rem #000;
+    text-transform: uppercase;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ahorcado {
+    width: 40%;
+}
+
+.ahorcado img {
+    width: 100%;
+}
+
+.principal {
+    width: 60%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 3rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    box-shadow: .2rem .2rem .3rem #000;
+}
+
+.btn-principal {
+    background-color: rgb(47, 74, 228);
+    color: #fff;
+}
+
+.teclado { 
+    margin-top: 2rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teclado li {
+    margin: .3rem;
+}
+
+.palabra {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
