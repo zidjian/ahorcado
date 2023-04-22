@@ -63,7 +63,6 @@ function iniciar() {
     if( estadoJuego == true ) {
         modal.style.display = 'none';
         estado = false;
-        console.log('iniciado');
     }
 
     let valorAzar = Math.floor( Math.random() * cadenas.length );
@@ -96,8 +95,6 @@ function mostrarCadena() {
             mensaje += ' ';
         }
     }
-    console.log(cadenaElegida);
-    console.log(cadenaEstado);
     mostrar_cadena.innerHTML = mensaje;
 }
 
